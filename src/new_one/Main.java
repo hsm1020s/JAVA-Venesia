@@ -1,9 +1,9 @@
 package new_one;
 public class Main {
     public static void main(String[] args) {
-        Game game = new Game();
+        Casino_Game blackjack = new Casino_Game();
         try {
-            game.play(); //게임실행
+            blackjack.play(); //게임실행
         }catch (NullPointerException e){
             e.printStackTrace();
             System.out.println(e.getMessage()+" 널포인터예외");

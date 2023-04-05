@@ -1,9 +1,5 @@
 package new_one;
 
-import org.w3c.dom.Node;
-
-import java.util.LinkedList;
-
 public class User { //implements Cloneable
     Deck deck = new Deck();
     Card[] userCardDeck = new Card[Card.NumberMax]; //카드 저장소
@@ -15,12 +11,8 @@ public class User { //implements Cloneable
 
         System.out.printf("%s", shape[userCardDeck[i].getShape()]);
         System.out.printf(",%c", numbers.charAt(userCardDeck[i].getNubmer()));
-
         return "";
     }
-
-
-
 }
 
 

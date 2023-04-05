@@ -30,17 +30,6 @@ public class Dealer{
             rule.check(user,i);
         }
     }
-//    public void Linked_usersetting(){
-//
-//        for (int i = 0; i < Card.ShapeMax; i++) {
-//            list.add(user[i]);
-//        } //유저객체 다 넣음
-//        System.out.println(list.get(2));
-//        //유저객체 넣지않아서 null로 나옴
-//        //유저객체 넣고 뭐로 접근 ?
-//    } //딜러객체에서 유저에게 전달 (next->반복->
-
-
 
     public void dealermixdeck() {
         Card temp = null;
@@ -56,7 +45,6 @@ public class Dealer{
         for (int i = 0; i < deck.getCardsNumMax(); i++) {
             System.out.println(dealerCardDeck[i].toString());
         }
-
     } // number shape 말고 문자열로 출력해야함
 
     @Override
@@ -70,3 +58,14 @@ public class Dealer{
         return "";
     }
 }//딜러 클래스 끝
+
+
+//    public void Linked_usersetting(){
+//
+//        for (int i = 0; i < Card.ShapeMax; i++) {
+//            list.add(user[i]);
+//        } //유저객체 다 넣음
+//        System.out.println(list.get(2));
+//        //유저객체 넣지않아서 null로 나옴
+//        //유저객체 넣고 뭐로 접근 ?
+//    } //딜러객체에서 유저에게 전달 (next->반복->

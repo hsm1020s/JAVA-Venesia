@@ -1,6 +1,6 @@
 package new_one;
 
-public class Game {
+public class Casino_Game {
     Dealer dealer = new Dealer();//게임이 룰이랑 유저 가지고 있어야함
 //    User user = new User();
 //    Rule rule = new Rule();
