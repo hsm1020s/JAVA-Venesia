@@ -1,6 +1,9 @@
 package new_one;
 
 public class User { //implements Cloneable
+    House house = new House();
+    Car car = new Car();
+    Money usermoney = new Money();
     Deck deck = new Deck();
     Card[] userCardDeck = new Card[Card.NumberMax]; //카드 저장소
 

@@ -4,6 +4,7 @@ public class Casino_Game {
     Dealer dealer = new Dealer();//게임이 룰이랑 유저 가지고 있어야함
 //    User user = new User();
 //    Rule rule = new Rule();
+    //머니 객체?
     public void play(){
         dealer.dealermixdeck();
       //  dealer.printtmp();
